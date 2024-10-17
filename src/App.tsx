@@ -20,7 +20,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-100 via-gray-200 to-gray-300 dark:from-gray-900 dark:via-purple-900 dark:to-violet-800 flex items-center justify-center p-4 transition-colors duration-300">
+    <div className="min-h-screen flex items-center justify-center p-4 transition-colors duration-300">
       <Card className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl bg-white/50 dark:bg-gray-800/50 backdrop-blur-md text-gray-900 dark:text-gray-100 border-none shadow-2xl">
         <CardHeader className="p-4 sm:p-6 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
           <CardTitle className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-violet-700 dark:text-violet-300">D&D Wild Magic Surge</CardTitle>
