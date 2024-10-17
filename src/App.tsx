@@ -35,7 +35,9 @@ function App() {
         </CardHeader>
         <CardContent className="flex flex-col items-center space-y-6 p-4 sm:p-6">
           <Button
-            onClick={triggerWildMagic}
+            onClick={() => {
+              triggerWildMagic();
+            }}
             className="bg-violet-600 hover:bg-violet-700 text-white font-bold py-3 px-6 sm:py-4 sm:px-8 rounded-full text-lg sm:text-xl shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 w-full sm:w-auto"
           >
             <Wand2 className="mr-2 h-5 w-5 sm:h-6 sm:w-6" />
